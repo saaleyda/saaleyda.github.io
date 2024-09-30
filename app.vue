@@ -19,7 +19,7 @@
 
       <div class="flex flex-col md:flex-row items-center md:items-start">
         <div class="flex-shrink-0 mb-6 md:mb-0 md:mr-6">
-          <img src="./assets/images/Profile_-_Phineas_Flynn.PNG.webp" alt="Profile" class="rounded-full w-32 h-32 object-cover border-4 border-blue-500 shadow-lg" />
+          <img :src="require('@/assets/images/Profile_-_Phineas_Flynn.PNG.webp')" alt="Profile" class="rounded-full w-32 h-32 object-cover border-4 border-blue-500 shadow-lg" />
         </div>
         <div class="bg-gray-900/50 p-4 rounded-lg">
           <h1 class="text-4xl font-bold text-white">Phineas Flynn</h1>
